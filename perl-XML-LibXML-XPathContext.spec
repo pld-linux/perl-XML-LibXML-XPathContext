@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	LibXML-XPathContext
+%define		pdir	XML
+%define		pnam	LibXML-XPathContext
 Summary:	XML::LibXML::XPathContext - Perl interface to libxml2's xmlXPathContext
 Summary(pl):	XML::LibXML::XPathContext - interfejs perlowy do xmlXPathContext z libxml2
 Name:		perl-XML-LibXML-XPathContext
