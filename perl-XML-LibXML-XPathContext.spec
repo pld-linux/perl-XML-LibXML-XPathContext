@@ -6,7 +6,7 @@
 %define	pdir	XML
 %define	pnam	LibXML-XPathContext
 Summary:	XML::LibXML::XPathContext - Perl interface to libxml2's xmlXPathContext
-Summary(pl):	XML::LibXML::XPathContext - perlowy interfejs do xmlXPathContext z libxml2
+Summary(pl):	XML::LibXML::XPathContext - interfejs perlowy do xmlXPathContext z libxml2
 Name:		perl-XML-LibXML-XPathContext
 Version:	0.06
 Release:	1
