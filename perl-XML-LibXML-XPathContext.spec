@@ -10,7 +10,7 @@ Summary(pl):	XML::LibXML::XPathContext - interfejs perlowy do xmlXPathContext z 
 Name:		perl-XML-LibXML-XPathContext
 Version:	0.06
 Release:	1
-License:	GPL or Artistic
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	b7c71f1403f3d5b1cd3e5b94bd8f6209
@@ -52,7 +52,6 @@ niektóre aspekty silnika XPath:
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make} \
 	OPTIMIZE="%{rpmcflags}"
 
