@@ -8,12 +8,12 @@
 Summary:	XML::LibXML::XPathContext - Perl interface to libxml2's xmlXPathContext
 Summary(pl):	XML::LibXML::XPathContext - interfejs perlowy do xmlXPathContext z libxml2
 Name:		perl-XML-LibXML-XPathContext
-Version:	0.06
+Version:	0.07
 Release:	1
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	b7c71f1403f3d5b1cd3e5b94bd8f6209
+# Source0-md5:	0e7fca6fe476f933b4afba82add465d3
 BuildRequires:	libxml2-devel >= 2.4.25
 %if %{with tests}
 BuildRequires:	perl-XML-LibXML >= 0.51
