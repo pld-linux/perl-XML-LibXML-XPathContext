@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	LibXML-XPathContext
 Summary:	XML::LibXML::XPathContext - Perl interface to libxml2's xmlXPathContext
-Summary(pl):	XML::LibXML::XPathContext - interfejs perlowy do xmlXPathContext z libxml2
+Summary(pl.UTF-8):   XML::LibXML::XPathContext - interfejs perlowy do xmlXPathContext z libxml2
 Name:		perl-XML-LibXML-XPathContext
 Version:	0.07
 Release:	1
@@ -35,15 +35,15 @@ aspects of XPath engine. This modules allows:
 - cheating the context about current proximity position and context
   size.
 
-%description -l pl
-Ten modu³ rozszerza XML::LibXML dostarczaj±c perlowy interfejs do
-struktury xmlXPathContext z libxml2. Oprócz samego wykonywania
-instrukcji xpath na drzewach wêz³ów XML::LibXML pozwala redefiniowaæ
-niektóre aspekty silnika XPath:
-- rejestrowaæ prefiksy przestrzeni nazw,
-- definiowaæ funkcje XPath w Perlu,
-- definiowaæ funkcje wyszukiwania zmiennych w Perlu,
-- oszukiwaæ kontekst co do bie¿±cej blisko¶ci pozycji i rozmiaru
+%description -l pl.UTF-8
+Ten moduÅ‚ rozszerza XML::LibXML dostarczajÄ…c perlowy interfejs do
+struktury xmlXPathContext z libxml2. OprÃ³cz samego wykonywania
+instrukcji xpath na drzewach wÄ™zÅ‚Ã³w XML::LibXML pozwala redefiniowaÄ‡
+niektÃ³re aspekty silnika XPath:
+- rejestrowaÄ‡ prefiksy przestrzeni nazw,
+- definiowaÄ‡ funkcje XPath w Perlu,
+- definiowaÄ‡ funkcje wyszukiwania zmiennych w Perlu,
+- oszukiwaÄ‡ kontekst co do bieÅ¼Ä…cej bliskoÅ›ci pozycji i rozmiaru
   kontekstu.
 
 %prep
