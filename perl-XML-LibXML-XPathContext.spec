@@ -12,8 +12,9 @@ Version:	0.07
 Release:	2
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+Source0:	http://www.cpan.org/modules/by-module/XML/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	0e7fca6fe476f933b4afba82add465d3
+URL:		http://search.cpan.org/dist/XML-LibXML-XPathContext/
 BuildRequires:	libxml2-devel >= 2.4.25
 %if %{with tests}
 BuildRequires:	perl-XML-LibXML >= 0.51
