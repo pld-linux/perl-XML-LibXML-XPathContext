@@ -73,6 +73,5 @@ rm -rf $RPM_BUILD_ROOT
 %doc Changes LICENSE README
 %{perl_vendorarch}/XML/LibXML/XPathContext.pm
 %dir %{perl_vendorarch}/auto/XML/LibXML/XPathContext
-%{perl_vendorarch}/auto/XML/LibXML/XPathContext/XPathContext.bs
 %attr(755,root,root) %{perl_vendorarch}/auto/XML/LibXML/XPathContext/XPathContext.so
 %{_mandir}/man3/*
