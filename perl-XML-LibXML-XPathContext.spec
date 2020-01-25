@@ -2,7 +2,6 @@
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
 #
-%include	/usr/lib/rpm/macros.perl
 %define		pdir	XML
 %define		pnam	LibXML-XPathContext
 Summary:	XML::LibXML::XPathContext - Perl interface to libxml2's xmlXPathContext
